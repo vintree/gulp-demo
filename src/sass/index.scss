@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+@import "lib/basic";
+
+.index-header-box {
+    height: 35px;
+    line-height: 35px;
+    background: #993333;
+    min-width: $min-width;
+    max-width: 100%;
+    .index-header-widthBox {
+        margin: auto;
+        width: $min-width;
+        .index-header-logoWord {
+            color: #fff;
+            font-size: $size-logo;
+        }
+    }
+}
+
+.index-nav-box {
+    width: 200px;
+    height: 300px;
+    background-color: #f6f6f6;
+    float: left;
+}
+
+.index-body-box {
+    width: $min-width;
+    margin: auto;
+}
+
+.index-weather-box {
+    position: relative;
+//    height: 80px;
+    padding: 10px;
+}
+.index-weather-now-city {
+    font-size: 12px;
+}
+
+.index-weather-now-content {
+    
+}
+.index-weather-now {
+    position: relative;
+    display: inline-block;
+    border-right: 1px solid red;
+}
+
+.index-weather-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.index-weather-box-bj {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/weather/bj/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.index-content-box {
+    padding-left: 215px;
+}
+
+.index-weather-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.index-weather-box-bjcolor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #336699;
+}
+
+.index-weather-now-num {
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.index-weather-now-w {
+    font-size: 12px;
+    color: #ffffff;
+}
